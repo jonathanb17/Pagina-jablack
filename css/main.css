@@ -1,0 +1,57 @@
+
+
+body{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+nav.navbar .navbar-brand img {
+  width: 30%;
+}
+
+.main-header {
+  /*position: relative;*/
+  background-size: cover;
+  background-image: url('../img/computadora.jpg');
+  min-height: 700px;
+  /*cambio de color y fondo*/
+  background-blend-mode: soft-light;
+  background-color: rgb(100, 100, 100);
+}
+
+.background-overlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.form-control, .btn{
+  border-radius: 0;
+}
+
+.team, footer {
+  background: #dddde6;
+}
+footer{
+  color: black;
+}
+
+
+#containerHeader{
+  margin-top: 182px;
+}
+
+
+@media only screen and (max-width: 575.98px){ 
+  nav.navbar .navbar-brand {
+    padding: 0;
+  }
+  nav.navbar .navbar-brand img {
+    width: 160px;
+  }
+
+  #accordionExample button.btn.btn-link{
+    white-space: normal;
+  }
+
+}
